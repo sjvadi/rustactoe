@@ -46,8 +46,27 @@ impl Board {
             match p {
                 Place::A1 => self.A1 = Type::Cross,
                 Place::A2 => self.A2 = Type::Cross,
+                Place::A3 => self.A3 = Type::Cross,
+                Place::B1 => self.B1 = Type::Cross,
+                Place::B2 => self.B2 = Type::Cross,
+                Place::B3 => self.B3 = Type::Cross,
+                Place::C1 => self.C1 = Type::Cross,
+                Place::C2 => self.C2 = Type::Cross,
+                Place::C3 => self.C3 = Type::Cross,
                 _ => println!("LAagstreepje")
             }
         }
+        if t == &Type::Circle {
+            match p {
+                Place::A1 => self.A1 = Type.Circle,
+                Place::A2 => self.A2 = Type.Circle,
+                Place::A3 => self.A3 = Type.Circle,
+                Place::B1 => self.B1 = Type.Circle,
+                Place::B2 => self.B2 = Type.Circle,
+                Place::B3 => self.B3 = Type.Circle,
+                Place::C1 => self.C1 = Type.Circle,
+                Place::C2 => self.C2 = Type.Circle,
+                Place::C3 => self.C3 = Type.Circle,
+
     }
 }
